@@ -91,12 +91,22 @@
         />
       </svg>
       <!-- For Menu -->
-      <ul class="flex flex-row justify-between">
-        <li class="mx-5"><a href="">Home</a></li>
-        <li class="mx-5"><a href="">Producs</a></li>
-        <li class="mx-5"><a href="">Blog</a></li>
-        <li class="mx-5"><a href="">FAQ</a></li>
-        <li class="mx-5"><a href="">Contact Us</a></li>
+      <ul class="flex justify-between">
+        <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
+          <a href="">Home</a>
+        </li>
+        <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
+          <a href="">Producs</a>
+        </li>
+        <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
+          <a href="">Blog</a>
+        </li>
+        <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
+          <a href="">FAQ</a>
+        </li>
+        <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
+          <a href="">Contact Us</a>
+        </li>
       </ul>
       <!-- For Icons -->
       <div class="flex flex-row">
@@ -123,7 +133,7 @@
           </p>
         </div>
         <input
-          class="rounded border bg-orange-600 hover:bg-orange-500 px-4 py-2 w-72 h-12 mt-40"
+          class="rounded border bg-orange-500 hover:bg-orange-600 px-4 py-2 w-72 h-12 mt-40 delay-300"
           type="button"
           value="Explore More"
         />
@@ -137,7 +147,7 @@
     <section class="flex flex-col items-center justify-center">
       <!-- For Categries -->
       <div class="flex flex-row w-306 justify-between mb-40">
-        <a href="" class="shadow-2xl w-36">
+        <a href="" class="shadow-2xl w-36 px-4 rounded-lg">
           <img
             class=""
             src="./accets/img/categories/Accessories.png"
@@ -145,26 +155,26 @@
           />
           <p class="flex justify-center">Accessories</p></a
         >
-        <a href="" class="shadow-2xl w-36">
+        <a href="" class="shadow-2xl w-36 px-4 rounded-lg">
           <img src="./accets/img/categories/camera.png" alt="camera" />
           <p class="flex justify-center">Camera</p>
         </a>
-        <a href="" class="shadow-2xl w-36">
+        <a href="" class="shadow-2xl w-36 px-4 rounded-lg">
           <img src="./accets/img/categories/laptop.png" alt="laptop" />
           <p class="flex justify-center">laptop</p>
         </a>
-        <a href="" class="shadow-2xl w-36">
+        <a href="" class="shadow-2xl w-36 px-4 rounded-lg">
           <img
             src="./accets/img/categories/smart-phone.png"
             alt="smart-phone"
           />
           <p class="flex justify-center">Smart Phone</p>
         </a>
-        <a href="" class="shadow-2xl w-36">
+        <a href="" class="shadow-2xl w-36 px-4 rounded-lg">
           <img src="./accets/img/categories/gaming.png" alt="gaming" />
           <p class="flex justify-center">Gaming</p></a
         >
-        <a href="" class="shadow-2xl w-36">
+        <a href="" class="shadow-2xl w-36 px-4 rounded-lg">
           <img
             src="./accets/img/categories/smart-watch.png"
             alt="smart-watch"
@@ -174,85 +184,91 @@
       </div>
       <!-- For Producs On Sale -->
       <div
-        class="flex flex-row w-306 justify-center h-80 bg-blue-800 rounded pt-10"
+        class="flex flex-row w-306 justify-center h-80 bg-blue-800 rounded pt-10 bg-gradient-to-tl from-blue-800 from-60% to-blue-500"
       >
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center mr-10">
           <p class="text-white text-2xl mb-4">Producs On Sale</p>
           <p class="text-white text-xl mb-32">Shop Now!</p>
-          <a href="">View All ></a>
-          <img
-            class="relative bottom-[268px]"
-            src="./accets/img/Procuts in sale/random-shape-in-blue-png 2.png"
-            alt="blur"
-          />
+          <a class="hover:text-orange-400" href="">View All ></a>
         </div>
         <div class="flex flex-row justify-between">
-          <a
-            href=""
-            class="flex flex-col justify-between items-center w-48 h-60 bg-white mx-6 rounded"
-          >
-            <p
-              class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between items-center w-48 h-60 mt-2 bg-white mx-6 rounded hover:h-64 hover:mt-0 delay-150"
             >
-              -50%
-            </p>
-            <img src="./accets/img/Procuts in sale/image.png" alt="" />
-            <p class="text-sm">Logitech G502 Gaming Mouse</p>
-            <div class="flex justify-around container">
-              <p><s>$38.00</s></p>
-              <p>$19.00</p>
-            </div></a
-          ><a
-            href=""
-            class="flex flex-col justify-between items-center w-48 h-60 bg-white mr-6 rounded"
-          >
-            <p
-              class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+              <p
+                class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+              >
+                -50%
+              </p>
+              <img src="./accets/img/Procuts in sale/image.png" alt="" />
+              <p class="text-sm">Logitech G502 Gaming Mouse</p>
+              <div class="flex justify-around container">
+                <p><s>$38.00</s></p>
+                <p>$19.00</p>
+              </div></a
             >
-              -30%
-            </p>
-            <img src="./accets/img/Procuts in sale/image-1.png" alt="" />
-            <p class="text-sm">
-              NPET K10 Wired Gaming Keyboard, LED Backlit, Spill...
-            </p>
-            <div class="flex justify-around container">
-              <p><s>$49.00</s></p>
-              <p>$34.30</p>
-            </div></a
-          ><a
-            href=""
-            class="flex flex-col justify-between items-center w-48 h-60 bg-white mr-6 rounded"
-          >
-            <p
-              class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between items-center w-48 h-60 mt-2 bg-white mr-6 rounded hover:h-64 hover:mt-0 delay-150"
             >
-              -20%
-            </p>
+              <p
+                class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+              >
+                -30%
+              </p>
+              <img src="./accets/img/Procuts in sale/image-1.png" alt="" />
+              <p class="text-sm">
+                NPET K10 Wired Gaming Keyboard, LED Backlit, Spill...
+              </p>
+              <div class="flex justify-around container">
+                <p><s>$49.00</s></p>
+                <p>$34.30</p>
+              </div></a
+            >
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between items-center w-48 h-60 mt-2 bg-white mr-6 rounded hover:h-64 hover:mt-0 delay-150"
+            >
+              <p
+                class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+              >
+                -20%
+              </p>
 
-            <img src="./accets/img/Procuts in sale/image-2.png" alt="" />
-            <p class="text-sm">Apple Watch Series 7 (GPS, 41MM)</p>
-            <div class="flex justify-around container">
-              <p><s>$289.00</s></p>
-              <p>$231.20</p>
-            </div></a
-          ><a
-            href=""
-            class="flex flex-col justify-between items-center w-48 h-60 bg-white mr-6 rounded"
-          >
-            <p
-              class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+              <img src="./accets/img/Procuts in sale/image-2.png" alt="" />
+              <p class="text-sm">Apple Watch Series 7 (GPS, 41MM)</p>
+              <div class="flex justify-around container">
+                <p><s>$289.00</s></p>
+                <p>$231.20</p>
+              </div></a
             >
-              -25%
-            </p>
-            <img src="./accets/img/Procuts in sale/image-3.png" alt="" />
-            <p class="text-sm">
-              Apple 2022 MacBook Air M2 Chip (8GB RAM, 256GB SSD)
-            </p>
-            <div class="flex justify-around container">
-              <p><s>$950.22</s></p>
-              <p>$712.66</p>
-            </div></a
-          >
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between items-center w-48 h-60 mt-2 bg-white mr-6 rounded hover:h-64 hover:mt-0 delay-150"
+            >
+              <p
+                class="bg-orange-200 rounded text-sm px-1 relative right-16 top-3"
+              >
+                -25%
+              </p>
+              <img src="./accets/img/Procuts in sale/image-3.png" alt="" />
+              <p class="text-sm">
+                Apple 2022 MacBook Air M2 Chip (8GB RAM, 256GB SSD)
+              </p>
+              <div class="flex justify-around container">
+                <p><s>$950.22</s></p>
+                <p>$712.66</p>
+              </div></a
+            >
+          </div>
         </div>
       </div>
       <!-- For New Producs -->
@@ -263,74 +279,82 @@
           <p class="text-3xl">New Products</p>
           <a href="">View all ></a>
         </div>
-        <div class="flex justify-between">
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/new procuts/image.png"
-              alt=""
-            />
-            <p>Iphone 14 promax 256 gig</p>
-            <div class="flex justify-between">
-              <p>$930.90</p>
-              <p><i class="fa-solid fa-star"></i> 4.5</p>
-            </div>
-          </a>
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/new procuts/image-1.png"
-              alt=""
-            />
-            <p>Blackmagic Design Pocket Cinema Camera 6K Pro (Canon EF)</p>
-            <div class="flex justify-between">
-              <p>$2535.00</p>
-              <p><i class="fa-solid fa-star"></i> 4.8</p>
-            </div>
-          </a>
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/new procuts/image-2.png"
-              alt=""
-            />
-            <p>SAMSUNG Galaxy S23 Ultra Cell Phone,256 GB</p>
-            <div class="flex justify-between">
-              <p>$1018.00</p>
-              <p><i class="fa-solid fa-star"></i> 4.7</p>
-            </div>
-          </a>
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/new procuts/image-3.png"
-              alt=""
-            />
-            <p>VR VisionTech X1</p>
-            <div class="flex justify-between">
-              <p>$1,399.00</p>
-              <p><i class="fa-solid fa-star"></i> 3.9</p>
-            </div>
-          </a>
+        <!-- New Producs  -->
+        <div class="flex flex-nowrap justify-between">
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b"
+                src="./accets/img/new procuts/image.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">Iphone 14 promax 256 gig</p>
+              <div class="flex justify-between">
+                <p>$930.90</p>
+                <p><i class="fa-solid fa-star"></i> 4.5</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b"
+                src="./accets/img/new procuts/image-1.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">
+                Blackmagic Design Pocket Cinema Camera 6K Pro (Canon EF)
+              </p>
+              <div class="flex justify-between">
+                <p>$2535.00</p>
+                <p><i class="fa-solid fa-star"></i> 4.8</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b"
+                src="./accets/img/new procuts/image-2.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">
+                SAMSUNG Galaxy S23 Ultra Cell Phone,256 GB
+              </p>
+              <div class="flex justify-between">
+                <p>$1018.00</p>
+                <p><i class="fa-solid fa-star"></i> 4.7</p>
+              </div>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b"
+                src="./accets/img/new procuts/image-3.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">VR VisionTech X1</p>
+              <div class="flex justify-between">
+                <p>$1,399.00</p>
+                <p><i class="fa-solid fa-star"></i> 3.9</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <!-- For Event  -->
       <div class="flex flex-row w-306 h-[420px] m-20">
-        <!-- <img
-          class="absolute left-1"
-          src="./accets/img/event/Ellipse 448.png"
-          alt=""
-        />
-        <img class="absolute" src="./accets/img/event/Ellipse 448.png" alt="" />
-        <img class="absolute" src="./accets/img/event/Ellipse 448.png" alt="" /> -->
+        <!-- Left Side Of Event  -->
         <div
           class="bg-gradient-to-r from-blue-600 to-emerald-200 w-[736px] h-full flex justify-around pb-10 rounded-lg"
         >
@@ -378,7 +402,7 @@
               pre-sale.
             </p>
             <input
-              class="rounded w-32 h-9 bg-blue-600 text-white hover:bg-blue-500"
+              class="rounded w-32 h-9 bg-blue-500 text-white hover:bg-blue-800 delay-300"
               type="button"
               value="Register Now"
             />
@@ -406,7 +430,7 @@
             </div>
             <a href="" class="flex justify-center mt-10">
               <input
-                class="rounded w-32 h-9 bg-blue-600 text-white hover:bg-blue-500"
+                class="rounded w-32 h-9 bg-blue-500 text-white hover:bg-blue-800 delay-300"
                 type="button"
                 value="Buy Now"
             /></a>
@@ -422,68 +446,78 @@
           <a href="">View all ></a>
         </div>
         <div class="flex justify-between">
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/Best Sellers/image.png"
-              alt=""
-            />
-            <p>EchoX Pro H900</p>
-            <div class="flex justify-between">
-              <p>$32.30</p>
-              <p><i class="fa-solid fa-star"></i> 4.1</p>
-            </div>
-          </a>
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/Best Sellers/image-1.png"
-              alt=""
-            />
-            <p>Play Station 4 Pro 1Tb</p>
-            <div class="flex justify-between items-end">
-              <div class="flex flex-col">
-                <p><s>$1090.00</s></p>
-                <p>$980.00</p>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b group-hover:scale-110"
+                src="./accets/img/Best Sellers/image.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">EchoX Pro H900</p>
+              <div class="flex justify-between">
+                <p>$32.30</p>
+                <p><i class="fa-solid fa-star"></i> 4.1</p>
               </div>
-              <p><i class="fa-solid fa-star"></i> 4.4</p>
-            </div>
-          </a>
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/Best Sellers/image-2.png"
-              alt=""
-            />
-            <p>Apple MacBook Air 15" w/ Touch ID (2023) - Space Grey</p>
-            <div class="flex justify-between">
-              <p>$1883.05</p>
-              <p><i class="fa-solid fa-star"></i> 4.5</p>
-            </div>
-          </a>
-          <a
-            href=""
-            class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1"
-            ><img
-              class="border-b"
-              src="./accets/img/Best Sellers/image-3.png"
-              alt=""
-            />
-            <p>Airpods pro2</p>
-            <div class="flex justify-between items-end">
-              <div class="flex flex-col">
-                <p><s>$ 285.08</s></p>
-                <p>$274.04</p>
+            </a>
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b group-hover:scale-110"
+                src="./accets/img/Best Sellers/image-1.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">Play Station 4 Pro 1Tb</p>
+              <div class="flex justify-between items-end">
+                <div class="flex flex-col">
+                  <p><s>$1090.00</s></p>
+                  <p>$980.00</p>
+                </div>
+                <p><i class="fa-solid fa-star"></i> 4.4</p>
               </div>
-              <p><i class="fa-solid fa-star"></i> 4.2</p>
-            </div>
-          </a>
+            </a>
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b group-hover:scale-110"
+                src="./accets/img/Best Sellers/image-2.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">
+                Apple MacBook Air 15" w/ Touch ID (2023) - Space Grey
+              </p>
+              <div class="flex justify-between">
+                <p>$1883.05</p>
+                <p><i class="fa-solid fa-star"></i> 4.5</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href=""
+              class="flex flex-col justify-between w-72 h-80 shadow-lg px-7 pt-8 pb-1 group hover:shadow-xl"
+              ><img
+                class="border-b group-hover:scale-110"
+                src="./accets/img/Best Sellers/image-3.png"
+                alt=""
+              />
+              <p class="group-hover:text-blue-500">Airpods pro2</p>
+              <div class="flex justify-between items-end">
+                <div class="flex flex-col">
+                  <p><s>$ 285.08</s></p>
+                  <p>$274.04</p>
+                </div>
+                <p><i class="fa-solid fa-star"></i> 4.2</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <!-- For Top Brand  -->
@@ -541,11 +575,11 @@
           <a class="mr-4" href="">View all ></a>
         </div>
         <!-- Blogs -->
-        <!-- left side of blog -->
         <div class="flex">
-          <div class="border rounded-lg w-96 h-80 mr-6">
+          <!-- left side of blog -->
+          <div class="border rounded-lg w-96 h-80 mr-6 group">
             <img
-              class="rounded-lg"
+              class="rounded-lg group-hover:h-32 group-hover:w-[279px] delay-300"
               src="./accets/img/Our Blogs/image.png"
               alt=""
             />
@@ -555,23 +589,32 @@
               </p>
               <p><i class="fa-regular fa-clock mr-2"></i>3 min read</p>
             </div>
-            <h4 class="text-lg ml-9">Meta Platforms plans to release free</h4>
+            <h4 class="text-lg ml-9 group-hover:text-orange-500">
+              Meta Platforms plans
+            </h4>
             <p class="ml-9 text-sm">
               The parent company of Facebook, Meta Platforms, is introducing
-              software to help developers
+              software
             </p>
+            <a
+              href=""
+              class="hidden group-hover:flex group-hover:text-orange-500 group-hover:text-lg pl-9 mt-7"
+              >Read More</a
+            >
           </div>
           <!-- right side of blogs  -->
           <div class="flex flex-col">
             <!--  Headphones blog -->
-            <div class="flex flex-row w-full rounded-lg border mb-1.5">
+            <div
+              class="flex flex-row w-full rounded-lg border mb-1.5 shadow-lg group hover:shadow-2xl"
+            >
               <img
                 class="rounded-l-lg mr-5"
                 src="./accets/img/Our Blogs/blog image.png"
                 alt=""
               />
               <div class="flex flex-col justify-around">
-                <h5 class="text-orange-400 text-lg">
+                <h5 class="group-hover:text-orange-500 text-lg">
                   8 Things You Probably Didn’t Know About Headphones
                 </h5>
                 <p class="opacity-70">
@@ -584,14 +627,17 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-row w-full rounded-lg border">
+            <!-- Analyzing Blog -->
+            <div
+              class="flex flex-row w-full rounded-lg border shadow-lg group hover:shadow-2xl"
+            >
               <img
                 class="rounded-l-lg mr-5"
                 src="./accets/img/Our Blogs/blog image-1.png"
                 alt=""
               />
               <div class="flex flex-col justify-around">
-                <h5 class="text-orange-400 text-lg">
+                <h5 class="group-hover:text-orange-500 text-lg">
                   Analyzing the August 17th Bitcoin Price Drop
                 </h5>
                 <p class="opacity-70">
@@ -609,7 +655,6 @@
         </div>
       </div>
       <!-- Features of the seller -->
-
       <div class="flex items-center justify-between w-306 mb-20">
         <div class="flex items-center">
           <img
@@ -641,79 +686,76 @@
         </div>
       </div>
     </section>
-    <footer class="w-full h-[347px] flex bg">
-      <!-- main footer  -->
-      <div
-        class="w-full h-[293px] flex justify-around items-baseline bg-gradient-to-b from-blue-950 from-80% to-blue-900 pt-10 text-white"
-      >
-        <!-- left side of main footer  -->
-        <div class="flex flex-col justify-between h-40">
-          <h3 class="text-xl">Company</h3>
-          <a class="opacity-80" href="">about us</a>
-          <a class="opacity-80" href="">blog</a>
-          <a class="opacity-80" href="">returns</a>
-          <a class="opacity-80" href="">order status </a>
-        </div>
-        <div class="flex flex-col justify-between h-16">
-          <h3 class="text-xl">Info</h3>
+    <footer
+      class="w-full h-[293px] flex justify-around items-baseline bg-gradient-to-b from-indigo-950 from-80% to-blue-900 pt-10 text-white"
+    >
+      <!-- left side of main footer  -->
+      <div class="flex flex-col justify-between h-40">
+        <h3 class="text-xl">Company</h3>
+        <a class="opacity-80" href="">about us</a>
+        <a class="opacity-80" href="">blog</a>
+        <a class="opacity-80" href="">returns</a>
+        <a class="opacity-80" href="">order status </a>
+      </div>
+      <div class="flex flex-col justify-between h-16">
+        <h3 class="text-xl">Info</h3>
 
-          <a class="opacity-80" href="">FAQ</a>
-        </div>
-        <!-- main side of main footer  -->
-        <div class="flex flex-col justify-between h-40">
-          <p class="text-xl">Contact us</p>
-          <p class="flex opacity-80">
-            <img
-              class="pr-1"
-              src="./accets/img/footer/location.svg"
-              alt="location"
-            />123 Main Street, Anytown,USA
-          </p>
-          <p class="flex opacity-80">
-            <img
-              class="pr-1"
-              src="./accets/img/footer/call-calling.svg"
-              alt="call"
-            />+1 (555) 123-4567
-          </p>
-          <p class="flex opacity-80">
-            <img
-              class="pr-1"
-              src="./accets/img/footer/sms-edit.svg"
-              alt="sms"
-            />TechHeimSupport@gmail.com
-          </p>
-        </div>
-        <!-- right side of main footer  -->
-        <div class="flex flex-col justify-between h-40">
-          <p>Sign up for News and updates</p>
-          <!-- For Email  -->
-          <div
-            class="flex items-center border border-white rounded-lg h-12 p-2 w-72 justify-around"
-          >
-            <img src="./accets/img/footer/user.svg" alt="" />
-            <input
-              class="focus:outline-none bg-blue-950"
-              type="email"
-              name="E-mail Address"
-              id="user-email"
-              placeholder="E-mail Address"
-            />
+        <a class="opacity-80" href="">FAQ</a>
+      </div>
+      <!-- main side of main footer  -->
+      <div class="flex flex-col justify-between h-40">
+        <p class="text-xl">Contact us</p>
+        <p class="flex opacity-80">
+          <img
+            class="pr-1"
+            src="./accets/img/footer/location.svg"
+            alt="location"
+          />123 Main Street, Anytown,USA
+        </p>
+        <p class="flex opacity-80">
+          <img
+            class="pr-1"
+            src="./accets/img/footer/call-calling.svg"
+            alt="call"
+          />+1 (555) 123-4567
+        </p>
+        <p class="flex opacity-80">
+          <img
+            class="pr-1"
+            src="./accets/img/footer/sms-edit.svg"
+            alt="sms"
+          />TechHeimSupport@gmail.com
+        </p>
+      </div>
+      <!-- right side of main footer  -->
+      <div class="flex flex-col justify-between h-40">
+        <p>Sign up for News and updates</p>
+        <!-- For Email  -->
+        <div
+          class="flex items-center border border-white rounded-lg h-12 p-2 w-72 justify-around"
+        >
+          <img src="./accets/img/footer/user.svg" alt="" />
+          <input
+            class="focus:outline-none bg-blue-950"
+            type="email"
+            name="E-mail Address"
+            id="user-email"
+            placeholder="E-mail Address"
+          />
 
-            <input id="submit-email" type="submit" value="" hidden />
-            <label for="submit-email"
-              ><i class="fa-solid fa-angle-right text-white"></i
-            ></label>
-          </div>
-          <div class="flex justify-between w-44">
-            <img src="./accets/img/footer/Facebook.svg" alt="" />
-            <img src="./accets/img/footer/twitter.svg" alt="" />
-            <img src="./accets/img/footer/Instagram.svg" alt="" />
-            <img src="./accets/img/footer/Youtube.svg" alt="" />
-          </div>
+          <input id="submit-email" type="submit" value="" hidden />
+          <label for="submit-email"
+            ><i class="fa-solid fa-angle-right text-white"></i
+          ></label>
+        </div>
+        <!-- social media icons  -->
+        <div class="flex justify-between w-44">
+          <img src="./accets/img/footer/Facebook.svg" alt="" />
+          <img src="./accets/img/footer/twitter.svg" alt="" />
+          <img src="./accets/img/footer/Instagram.svg" alt="" />
+          <img src="./accets/img/footer/Youtube.svg" alt="" />
         </div>
       </div>
-      <!-- down side of footer  -->
     </footer>
   </body>
 </html>
