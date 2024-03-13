@@ -602,6 +602,62 @@ video {
   top: 0.75rem;
 }
 
+.top-2 {
+  top: 0.5rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-52 {
+  bottom: 13rem;
+}
+
+.top-52 {
+  top: 13rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.top-7 {
+  top: 1.75rem;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
 .m-20 {
   margin: 5rem;
 }
@@ -732,6 +788,10 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .flex {
@@ -888,6 +948,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .flex-row {
@@ -1324,6 +1392,10 @@ video {
   opacity: 0.8;
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1564,4 +1636,24 @@ video {
 .group:hover .group-hover\:text-orange-500 {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:focus .group-focus\:block {
+  display: block;
+}
+
+.group:focus .group-focus\:flex {
+  display: flex;
+}
+
+.peer:hover ~ .peer-hover\:flex {
+  display: flex;
+}
+
+.peer:focus ~ .peer-focus\:flex {
+  display: flex;
 }
