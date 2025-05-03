@@ -95,8 +95,44 @@
         <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
           <a href="">Home</a>
         </li>
-        <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
-          <a href="">Producs</a>
+        <li class="relative mx-5 focus:text-blue-500 hover:shadow-lg py-2 px-4">
+          <button id="show-products-button" onclick="ShowProducts()" >Products</button>
+         <div class="products-menu absolute top-full mt-2 hidden flex bg-white shadow-lg border  py-4  w-150 h-64 right-[-400px] group ">
+           <ul class="flex justify-around flex-col pl-5 border-r pr-10 w-80 ">
+                <li><button class="all-buttons smart-phone-menu-button" onclick="toggleMenu('smart-phone-menu');ToggleStyleMenu(this)">Smart Phones</button></li>
+                <li><button class="all-buttons laptop-and-computers-menu-button" onclick="toggleMenu('laptops-and-computers-menu');ToggleStyleMenu(this)">laptops and computers</button></li>
+                <li><button class="all-buttons gaming-menu-button" onclick="toggleMenu('gaming-menu');ToggleStyleMenu(this)">Gaming </button></li>
+                <li><button class="all-buttons cameras-menu-button" onclick="toggleMenu('cameras-menu');ToggleStyleMenu(this)">Cameras</button></li>
+                <li><button class="all-buttons smart-watch-menu-button" onclick="toggleMenu('smart-watch-menu');ToggleStyleMenu(this)">Smart Watch</button></li>
+      </ul>
+           <ul class="w-96  ml-10 hidden smart-phone-menu flex flex-col justify-around pb-10 menus">
+             <li><a href="">Smart Phones</a></li>
+             <li><a href="">Accessories</a></li>
+             <li><a href="">View All</a></li>
+
+           </ul>
+           <ul class="laptops-and-computers-menu w-96 ml-10 hidden menus flex flex-col justify-around pb-10 menus">
+             <li><a href="">LapTops</a></li>
+             <li><a href="">Computers</a></li>
+             <li><a href="">View All</a></li>
+           </ul>
+
+           <ul class="gaming-menu hidden menus flex flex-col justify-around pb-10 w-96 ml-10">
+             <li><a href="">Gaming Chair</a></li>
+             <li><a href="">Accessories</a></li>
+             <li><a href="">View All</a></li>
+           </ul>
+           <ul class="cameras-menu hidden menus flex flex-col justify-around pb-10 w-96 ml-10">
+             <li><a href="">Cameras</a></li>
+             <li><a href="">lens</a></li>
+             <li><a href="">View All</a></li>
+           </ul>
+           <ul class="smart-watch-menu hidden menus flex flex-col justify-around pb-10 w-96 ml-10">
+             <li><a href="">Smart Watch</a></li>
+             <li><a href="">Watchband</a></li>
+             <li><a href="">View All</a></li>
+           </ul>
+      </div>
         </li>
         <li class="mx-5 hover:text-blue-500 hover:shadow-lg py-2 px-4">
           <a href="">Blog</a>
@@ -124,7 +160,7 @@
         ></label>
       </div>
     </nav>
-    <header class="flex flex-row justify-center w-[1440] my-5 h-[548px]">
+    <header class="flex flex-row justify-center w-[1440px] my-5 h-[548px]">
       <div class="flex flex-col">
         <h1 class="text-6xl mb-20">Tech Heim</h1>
         <div class="flex flex-row items-center text-3xl">
@@ -755,5 +791,6 @@
         </div>
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
